@@ -1,6 +1,7 @@
 package com.example.newsex.api
 
 import com.example.newsex.data.datasource.TopHeadlinesResponse
+import io.reactivex.Single
 import retrofit2.http.GET
 import retrofit2.http.Query
 
@@ -13,4 +14,10 @@ interface NewsApiService {
         @Query("country") country: String,
         @Query("apiKey") apiKey: String = API_KEY
     ): TopHeadlinesResponse?
+
+    @GET("everything")
+   fun getEverything(
+        @Query("q") q: String,
+        @Query("apiKey") apiKey: String = API_KEY
+    ): Single<TopHeadlinesResponse>
 }

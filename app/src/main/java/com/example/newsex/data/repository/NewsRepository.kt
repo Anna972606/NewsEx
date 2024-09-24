@@ -2,6 +2,7 @@ package com.example.newsex.data.repository
 
 import com.example.newsex.api.NewsApi
 import com.example.newsex.data.datasource.TopHeadlinesResponse
+import io.reactivex.Single
 import kotlinx.coroutines.flow.Flow
 import kotlinx.coroutines.flow.flow
 import javax.inject.Inject
@@ -14,4 +15,8 @@ class NewsRepository @Inject constructor(
         flow {
             emit(newsApi.getTopHeadlines(country))
         }
+
+    override fun getEverything(value: String): Single<TopHeadlinesResponse> {
+        return newsApi.getEverything(value)
+    }
 }

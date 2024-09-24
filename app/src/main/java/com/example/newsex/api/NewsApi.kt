@@ -9,4 +9,6 @@ class NewsApi @Inject constructor(
     private val apiService = retrofitBuilder.build().create(NewsApiService::class.java)
 
     suspend fun getTopHeadlines(country: String) = apiService.getTopHeadlines(country)
+
+   fun getEverything(value: String) = apiService.getEverything(value)
 }
