@@ -1,0 +1,32 @@
+{
+  "status": "ok",
+  "totalResults": 4174,
+  "articles": [
+    {
+      "source": {
+        "id": "the-times-of-india",
+        "name": "The Times of India"
+      },
+      "author": "NYT News Service",
+      "title": "The tech bro style in American politics",
+      "description": "Elon Musk's right-wing turn isn't universal or even typical, reporting suggests that even with the rightward turn of several boldface names, Silicon Valley remains heavily Democratic. In particular, political contributions from the internet industry remain st…",
+      "url": "https://economictimes.indiatimes.com/tech/technology/the-tech-bro-style-in-american-politics/articleshow/113731004.cms",
+      "urlToImage": "https://img.etimg.com/thumb/msid-113731213,width-1200,height-630,imgsize-19524,overlay-ettech/photo.jpg",
+      "publishedAt": "2024-09-27T07:35:39Z",
+      "content": "It seems hard to believe now, but in 2021, Time named Elon Musk its Person of the Year. True, that designation doesn't necessarily equate to a stamp of approval. But the magazine's coverage of Musk a… [+5084 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Maximumfun.org"
+      },
+      "author": "shows@maximumfun.org (MaximumFun.org, Judge John Hodgman), MaximumFun.org, Judge John Hodgman",
+      "title": "TEASER: Members Only Mailbag September 2024",
+      "description": "The September Members Only Mailbag is in the Maximum Fun bonus feed! In this clip, Judge John Hodgman talks about his earliest experiences with a Tesla car. Why is the J Squad talking about Teslas? The answer may surprise you!!!For the full episode, check you…",
+      "url": "https://maximumfun.org/episodes/judge-john-hodgman/teaser-members-only-mailbag-september-2024/",
+      "urlToImage": "https://maximumfun.org/wp-content/uploads/2023/01/JJHo-Logo-High-Res-400x400-1.jpg",
+      "publishedAt": "2024-09-27T07:00:00Z",
+      "content": "The September Members Only Mailbag is in the Maximum Fun bonus feed! In this clip, Judge John Hodgman talks about his earliest experiences with a Tesla car. Why is the J Squad talking about Teslas? T… [+344 chars]"
+    }
+  ]
+}
