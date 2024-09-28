@@ -8,6 +8,8 @@ Download a list of news with the newsapi.org API.
 4. OkHttp Interceptor
 5. Jetpack compose
 6. RxJava
+7. Mockk
+8. MockWebServer
 
 
 https://github.com/user-attachments/assets/6dfb47cc-28eb-40f5-8063-9bec58aca04d
